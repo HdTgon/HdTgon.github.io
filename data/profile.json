@@ -1,0 +1,86 @@
+{
+  "name": "HdTgon",
+  "name_note": "Personal academic homepage",
+  "role": "Research profile · details to be added",
+  "affiliation": "Affiliation to be added",
+  "description": "Academic homepage of HdTgon. Research, publications, education, and academic activities.",
+  "site_url": "https://hdtgon.github.io/zhiwencao.github.io",
+  "photo": "assets/avatar.jpg",
+  "photo_alt": "HdTgon's GitHub avatar; replace with a personal academic portrait",
+  "links": {
+    "GitHub": "https://github.com/HdTgon",
+    "Google Scholar": null,
+    "Email": null,
+    "CV": null
+  },
+  "about": [
+    "Welcome! I’m HdTgon. This page brings together my research, publications, and academic activities.",
+    "My public GitHub repositories include implementations of multi-view unsupervised feature selection and class-incremental learning. A personal biography and current affiliation will be added here."
+  ],
+  "interests_note": "Topics reflected in public repositories; personal research directions to be confirmed.",
+  "interests": [
+    "Multi-view learning",
+    "Unsupervised feature selection",
+    "Class-incremental learning"
+  ],
+  "news": [],
+  "publications_note": "Initial entries are sourced from public repository descriptions. Authorship and publication details are awaiting confirmation.",
+  "publications": [
+    {
+      "title": "On the Power of Statistics in Class-Incremental Learning with Pretrained Models",
+      "authors": [],
+      "venue": "ICML",
+      "year": 2026,
+      "links": {
+        "Code": "https://github.com/HdTgon/baseCIL"
+      }
+    },
+    {
+      "title": "Partition Level Tensor Learning based Multi-View Unsupervised Feature Selection",
+      "authors": [],
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "year": 2023,
+      "links": {
+        "Code": "https://github.com/HdTgon/2023-TNNLS-PTFS"
+      }
+    },
+    {
+      "title": "Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection",
+      "authors": [],
+      "venue": "Expert Systems with Applications",
+      "year": 2023,
+      "links": {
+        "Code": "https://github.com/HdTgon/2023-ESWA-SCMvFS"
+      }
+    },
+    {
+      "title": "Consensus cluster structure guided multi-view unsupervised feature selection",
+      "authors": [],
+      "venue": "Knowledge-Based Systems",
+      "year": 2023,
+      "links": {
+        "Code": "https://github.com/HdTgon/2023-KBS-CCSFS"
+      }
+    },
+    {
+      "title": "Multi-View Unsupervised Feature Selection with Consensus Partition and Diverse Graph",
+      "authors": [],
+      "venue": "Information Sciences",
+      "year": 2023,
+      "links": {
+        "Code": "https://github.com/HdTgon/2023-INS-CDMvFS"
+      }
+    },
+    {
+      "title": "Multi-view unsupervised complementary feature selection with multi-order similarity learning",
+      "authors": [],
+      "venue": "Knowledge-Based Systems",
+      "year": 2023,
+      "links": {
+        "Code": "https://github.com/HdTgon/2023-KBS-CFSMO"
+      }
+    }
+  ],
+  "education": [],
+  "services": []
+}
