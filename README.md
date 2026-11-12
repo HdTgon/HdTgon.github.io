@@ -7,8 +7,8 @@
 需要 Python 3.12+（GitHub Actions 自动配置）。
 
 ```bash
-git clone https://github.com/HdTgon/zhiwencao.github.io.git
-cd zhiwencao.github.io
+git clone https://github.com/HdTgon/HdTgon.github.io.git
+cd HdTgon.github.io
 python scripts/build.py
 python scripts/check.py
 python -m http.server 8000 --directory dist
@@ -53,11 +53,11 @@ News、Education、Academic Services 使用相同的条目结构，例如：
 
 ## 部署到 GitHub Pages
 
-1. 账号 HdTgon 下创建公开仓库 `zhiwencao.github.io`。
+1. 账号 HdTgon 下创建公开仓库 `HdTgon.github.io`。
 2. 将此项目所有源码文件（包括 `.github` 隐藏目录）推送至 `main`，不需要提交 dist。
 3. 仓库 **Settings → Pages → Build and deployment → Source → GitHub Actions**。
 4. 在 **Actions** 查看 `Deploy academic homepage to GitHub Pages`，必要时手动 Run workflow。
-5. 成功后访问 https://hdtgon.github.io/zhiwencao.github.io/ 。后续更新 JSON/照片并推送 main 即自动发布。
+5. 成功后访问 https://hdtgon.github.io/ 。后续更新 JSON/照片并推送 main 即自动发布。
 
 工作流采用两个 job：build 仅有 contents:read；deploy 单独申请 pages:write 和 id-token:write，通过 github-pages environment 发布官方 Pages artifact。并发发布按队列运行。无需个人 Token 或 Secrets。
 
@@ -65,7 +65,7 @@ News、Education、Academic Services 使用相同的条目结构，例如：
 
 ```bash
 gh auth login
-gh repo create HdTgon/zhiwencao.github.io --public --source=. --remote=origin --push
+gh repo create HdTgon/HdTgon.github.io --public --source=. --remote=origin --push
 ```
 
 该命令要求当前目录已 `git init` 并有初始提交；若仓库已创建，请改用 git remote add origin 和 git push -u origin main。随后按上方第 3 步启用 Pages。
