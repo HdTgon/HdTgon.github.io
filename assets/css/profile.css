@@ -6,3 +6,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}.profile-note{color:#687582;
 .profile-links a{display:inline-flex;align-items:center;gap:8px}.profile-links a i{flex:none;font-size:1.1em}.profile-links li+li{margin-top:7px}
 @media(min-width:1024px){.sidebar .profile_box{transform:translateX(40px)}}
 @media(max-width:1023px){.profile-links li+li{margin-top:0}}
+
+/* Publication thumbnails and journal/conference badges. */
+.publication-entry{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;align-items:center;padding:26px 0}.paper-visual{position:relative;min-width:0}.paper-visual .paper-thumbnail{display:block;width:100%;max-width:none;height:150px;object-fit:contain;margin:0;background:#fff;border-radius:9px;box-shadow:2px 3px 8px #0002;border:1px solid #e9edf1}.paper-venue-badge{position:absolute;top:8px;left:-6px;max-width:calc(100% + 6px);padding:3px 15px;border-radius:3px;background:#064aa5;color:#fff;font-size:11px;font-weight:700;line-height:1.5;box-shadow:0 2px 5px #0002}.paper-details{min-width:0}.paper-details .paper-links{margin-top:10px}.contact-details{padding-left:1.5em}.contact-details a{overflow-wrap:anywhere}
+@media(max-width:700px){.publication-entry{grid-template-columns:1fr;gap:18px}.paper-visual{width:min(100%,280px)}.paper-visual .paper-thumbnail{height:175px}}

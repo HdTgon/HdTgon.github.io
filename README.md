@@ -41,3 +41,17 @@ Settings → Pages → Source 保持 GitHub Actions。推送 main 自动运行�
 ## 简介换行与链接
 
 `_data/profile.json` 中 `about` 是字符串数组，每个元素显示为一个段落。段落之间加逗号，最后一项后不加逗号，不要在同一对双引号内部直接换行。简介支持 Markdown 链接，例如 `[Prof. Shudong Huang](https://huangsd.github.io/)`。
+
+## Contact 与论文图片
+
+底部邮箱在 `_data/profile.json` 的 `contact.email` 修改。侧栏社交链接与底部 Contact 独立维护。
+
+每篇论文的 `image` 是图片路径，`image_alt` 是替代说明，`badge` 是左上角标志文字（如 ICML、TNNLS、KBS）。图片放在 `images/publications/`，建议使用论文框架图或成果示意图。当前六张 SVG 明确标为待补充占位图，不是论文结果图。替换后例如：
+
+```json
+"image": "images/publications/basecil.png",
+"image_alt": "Overview of the baseCIL method",
+"badge": "ICML"
+```
+
+桌面显示左图右文，窄屏自动上下排列。样式在 `assets/css/profile.css` 的 Publication thumbnails 段。

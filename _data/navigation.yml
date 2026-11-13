@@ -9,3 +9,5 @@ main:
     url: "#publications"
   - title: "Honors and Awards"
     url: "#awards"
+  - title: "Contact"
+    url: "#contact"

@@ -26,7 +26,10 @@
       "year": 2026,
       "links": {
         "Code": "https://github.com/HdTgon/baseCIL"
-      }
+      },
+      "badge": "ICML",
+      "image": "images/publications/paper-1.svg",
+      "image_alt": "Placeholder: paper figure to be added"
     },
     {
       "title": "Partition Level Tensor Learning based Multi-View Unsupervised Feature Selection",
@@ -35,7 +38,10 @@
       "year": 2023,
       "links": {
         "Code": "https://github.com/HdTgon/2023-TNNLS-PTFS"
-      }
+      },
+      "badge": "TNNLS",
+      "image": "images/publications/paper-2.svg",
+      "image_alt": "Placeholder: paper figure to be added"
     },
     {
       "title": "Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection",
@@ -44,7 +50,10 @@
       "year": 2023,
       "links": {
         "Code": "https://github.com/HdTgon/2023-ESWA-SCMvFS"
-      }
+      },
+      "badge": "ESWA",
+      "image": "images/publications/paper-3.svg",
+      "image_alt": "Placeholder: paper figure to be added"
     },
     {
       "title": "Consensus cluster structure guided multi-view unsupervised feature selection",
@@ -53,7 +62,10 @@
       "year": 2023,
       "links": {
         "Code": "https://github.com/HdTgon/2023-KBS-CCSFS"
-      }
+      },
+      "badge": "KBS",
+      "image": "images/publications/paper-4.svg",
+      "image_alt": "Placeholder: paper figure to be added"
     },
     {
       "title": "Multi-View Unsupervised Feature Selection with Consensus Partition and Diverse Graph",
@@ -62,7 +74,10 @@
       "year": 2023,
       "links": {
         "Code": "https://github.com/HdTgon/2023-INS-CDMvFS"
-      }
+      },
+      "badge": "INS",
+      "image": "images/publications/paper-5.svg",
+      "image_alt": "Placeholder: paper figure to be added"
     },
     {
       "title": "Multi-view unsupervised complementary feature selection with multi-order similarity learning",
@@ -71,7 +86,10 @@
       "year": 2023,
       "links": {
         "Code": "https://github.com/HdTgon/2023-KBS-CFSMO"
-      }
+      },
+      "badge": "KBS",
+      "image": "images/publications/paper-6.svg",
+      "image_alt": "Placeholder: paper figure to be added"
     }
   ],
   "awards": [
@@ -83,5 +101,8 @@
       "date": "2023",
       "text": "National Scholarship"
     }
-  ]
+  ],
+  "contact": {
+    "email": "caozhiwen@stu.scu.edu.cn"
+  }
 }
