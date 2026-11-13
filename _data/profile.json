@@ -1,11 +1,11 @@
 {
-  "name": "HdTgon",
-  "name_note": "Personal academic homepage",
-  "role": "Research profile · details to be added",
-  "affiliation": "Affiliation to be added",
-  "description": "Academic homepage of HdTgon. Research, publications, education, and academic activities.",
+  "name": "Zhiwen Cao (曹智文)",
+  "name_note": [],
+  "role": [],
+  "affiliation": "Sichuan University",
+  "description": [],
   "site_url": "https://hdtgon.github.io",
-  "photo": "images/avatar.jpg",
+  "photo": "images/photo.jpg",
   "photo_alt": "HdTgon's GitHub avatar; replace with a personal academic portrait",
   "links": {
     "GitHub": "https://github.com/HdTgon",
