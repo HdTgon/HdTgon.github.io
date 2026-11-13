@@ -37,3 +37,7 @@ python scripts/check.py
 Settings → Pages → Source 保持 GitHub Actions。推送 main 自动运行官方 `actions/jekyll-build-pages`，检查 `_site` 后上传 Pages artifact 并部署。无需新增 Secrets。可在 Actions 手动 Run workflow。该 Jekyll 版本替换此前的 Python 静态构建，旧版仍保留在 Git 历史中。
 
 未启用上游 Scholar 定时爬虫和引用数功能；填写真实 Scholar 信息后可再配置。原模板许可证见 LICENSE。
+
+## 简介换行与链接
+
+`_data/profile.json` 中 `about` 是字符串数组，每个元素显示为一个段落。段落之间加逗号，最后一项后不加逗号，不要在同一对双引号内部直接换行。简介支持 Markdown 链接，例如 `[Prof. Shudong Huang](https://huangsd.github.io/)`。

@@ -5,7 +5,9 @@ author_profile: true
 ---
 {% assign p = site.data.profile %}
 <section id="about-me"><h1>👋 About Me</h1>
-{% for paragraph in p.about %}<p>{{ paragraph | escape }}</p>{% endfor %}</section>
+{% for paragraph in p.about %}
+{{ paragraph | markdownify }}
+{% endfor %}</section>
 <section id="research"><h1>🔬 Research Interests</h1>
 <ul>{% for interest in p.interests %}<li>{{ interest | escape }}</li>{% endfor %}</ul>
 <p class="profile-note">{{ p.interests_note | escape }}</p></section>
