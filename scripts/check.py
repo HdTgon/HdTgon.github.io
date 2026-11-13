@@ -20,4 +20,4 @@ for ref in p.refs:
         target=root/unquote(u.path.lstrip('/'))
         assert target.exists(), f'Missing asset: {ref}'
     elif u.fragment:assert u.fragment in p.ids, f'Missing anchor: {ref}'
-print('PASS: six sections, navigation, assets, and no template demo claims')
+print('PASS: required sections, navigation, assets, and no template demo claims')

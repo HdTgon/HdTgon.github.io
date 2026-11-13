@@ -1,16 +1,16 @@
 {
   "name": "Zhiwen Cao (曹智文)",
-  "name_note": [],
-  "role": [],
+  "name_note": "",
+  "role": "",
   "affiliation": "Sichuan University",
-  "description": [],
+  "description": "",
   "site_url": "https://hdtgon.github.io",
   "photo": "images/photo.jpg",
-  "photo_alt": "HdTgon's GitHub avatar; replace with a personal academic portrait",
+  "photo_alt": "Portrait of Zhiwen Cao (曹智文)",
   "links": {
     "GitHub": "https://github.com/HdTgon",
     "Google Scholar": "https://scholar.google.hk/citations?user=odfczIMAAAAJ&hl=zh-CN&oi=sra",
-    "Email": "caozhiwen@stu.scu.edu.cn"
+    "Email": "mailto:caozhiwen@stu.scu.edu.cn"
   },
   "about": [
     "Welcome! I’m HdTgon. This page brings together my research, publications, and academic activities.",
@@ -77,7 +77,14 @@
       }
     }
   ],
-  "awards": ["2025: Caoguangbiao Scholarship",
-    "2023: National Scholarship",
+  "awards": [
+    {
+      "date": "2025",
+      "text": "Caoguangbiao Scholarship"
+    },
+    {
+      "date": "2023",
+      "text": "National Scholarship"
+    }
   ]
 }
