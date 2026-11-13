@@ -24,7 +24,7 @@ author_profile: true
 </div>
 <div class="paper-details">
 <h2>{{ paper.title | escape }}</h2>
-<p class="paper-authors">{% if paper.authors.size > 0 %}{{ paper.authors | join: ', ' | escape }}{% else %}Authors to be confirmed{% endif %}</p>
+<p class="paper-authors">{% if paper.authors.size > 0 %}{% for author in paper.authors %}{% if author == p.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}{% else %}Authors to be confirmed{% endif %}</p>
 <p><em>{{ paper.venue | escape }}</em>, <strong>{{ paper.year }}</strong></p>
 <div class="paper-links">{% for item in paper.links %}{% if item[1] %}<a href="{{ item[1] | escape }}">{{ item[0] | escape }}</a>{% endif %}{% endfor %}</div>
 </div></article>{% endfor %}</section>

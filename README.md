@@ -57,3 +57,18 @@ Settings → Pages → Source 保持 GitHub Actions。推送 main 自动运行�
 桌面显示左图右文，窄屏自动上下排列。样式在 `assets/css/profile.css` 的 Publication thumbnails 段。
 
 论文缩略图统一采用 11:7 比例，居中裁切填满图片框，点击可查看完整原图。顶部 Research 和 Honors and Awards 导航入口已隐藏，正文仍保留。页尾署名不在页面显示，模板版权和 MIT 许可证继续保留在 LICENSE 及本说明中。Contact 邮箱为纯文本。
+
+## 论文作者与官方链接
+
+`authors` 数组按官方作者顺序填写纯文本姓名，显示时以逗号分隔，与 profile.name 相同的姓名自动加粗，无需写 Markdown 星号。`links.Paper` 使用 ICML 官方会议页、IEEE Xplore 或 Elsevier ScienceDirect 的论文页，Code 保持指向代码仓库。
+
+核对来源：
+
+- ICML: https://icml.cc/virtual/2026/poster/63084 ，作者顺序亦与官方论文集 https://proceedings.mlr.press/v306/cao26h.html 核对。
+- TNNLS: https://ieeexplore.ieee.org/document/10737889/ ，DOI 10.1109/TNNLS.2024.3482440；作者与出版社提交至 Crossref 的元数据核对。
+- INS: https://www.sciencedirect.com/science/article/pii/S0020025524000914
+- KBS CFSMO: https://www.sciencedirect.com/science/article/pii/S095070512300922X
+- ESWA: https://www.sciencedirect.com/science/article/pii/S0957417423023953
+- KBS CCSFS: https://www.sciencedirect.com/science/article/pii/S0950705123003283
+
+CFSMO 和 ESWA 的正式卷期为 2024，网站继续保留本人指定的 2023 显示年份；链接和作者使用已核对的官方记录。

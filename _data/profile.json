@@ -21,10 +21,19 @@
   "publications": [
     {
       "title": "On the Power of Statistics in Class-Incremental Learning with Pretrained Models",
-      "authors": [],
+      "authors": [
+        "Zhiwen Cao",
+        "Yanfeng Li",
+        "Shu-Dong Huang",
+        "Yalan Ye",
+        "Shuyin Xia",
+        "Yi Wang",
+        "Jiancheng Lv"
+      ],
       "venue": "ICML",
       "year": 2026,
       "links": {
+        "Paper": "https://icml.cc/virtual/2026/poster/63084",
         "Code": "https://github.com/HdTgon/baseCIL"
       },
       "badge": "ICML",
@@ -33,63 +42,91 @@
     },
     {
       "title": "Partition Level Tensor Learning based Multi-View Unsupervised Feature Selection",
-      "authors": [],
+      "authors": [
+        "Zhiwen Cao",
+        "Xijiong Xie"
+      ],
       "venue": "IEEE Transactions on Neural Networks and Learning Systems",
       "year": 2025,
       "links": {
+        "Paper": "https://ieeexplore.ieee.org/document/10737889/",
         "Code": "https://github.com/HdTgon/2023-TNNLS-PTFS"
       },
       "badge": "TNNLS",
       "image": "images/publications/25TNNLS_partition_level.png",
-      "image_alt": "Method overview: Partition Level Tensor Learning based Multi-View Unsupervised Feature Selection"
+      "image_alt": "Method overview: Partition Level Tensor Learning based Multi-View Unsupervised Feature Selection",
+      "doi": "10.1109/TNNLS.2024.3482440"
     },
     {
       "title": "Multi-View Unsupervised Feature Selection with Consensus Partition and Diverse Graph",
-      "authors": [],
+      "authors": [
+        "Zhiwen Cao",
+        "Xijiong Xie",
+        "Yuqi Li"
+      ],
       "venue": "Information Sciences",
       "year": 2024,
       "links": {
+        "Paper": "https://www.sciencedirect.com/science/article/pii/S0020025524000914",
         "Code": "https://github.com/HdTgon/2023-INS-CDMvFS"
       },
       "badge": "INS",
       "image": "images/publications/24INS_CDMvFS.png",
-      "image_alt": "Method overview: Multi-View Unsupervised Feature Selection with Consensus Partition and Diverse Graph"
+      "image_alt": "Method overview: Multi-View Unsupervised Feature Selection with Consensus Partition and Diverse Graph",
+      "doi": "10.1016/j.ins.2024.120178"
     },
     {
       "title": "Multi-view unsupervised complementary feature selection with multi-order similarity learning",
-      "authors": [],
+      "authors": [
+        "Zhiwen Cao",
+        "Xijiong Xie"
+      ],
       "venue": "Knowledge-Based Systems",
       "year": 2023,
       "links": {
+        "Paper": "https://www.sciencedirect.com/science/article/pii/S095070512300922X",
         "Code": "https://github.com/HdTgon/2023-KBS-CFSMO"
       },
       "badge": "KBS",
       "image": "images/publications/23KBS_CFSMO.png",
-      "image_alt": "Method overview: Multi-view unsupervised complementary feature selection with multi-order similarity learning"
+      "image_alt": "Method overview: Multi-view unsupervised complementary feature selection with multi-order similarity learning",
+      "doi": "10.1016/j.knosys.2023.111172"
     },
     {
       "title": "Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection",
-      "authors": [],
+      "authors": [
+        "Zhiwen Cao",
+        "Xijiong Xie"
+      ],
       "venue": "Expert Systems with Applications",
       "year": 2023,
       "links": {
+        "Paper": "https://www.sciencedirect.com/science/article/pii/S0957417423023953",
         "Code": "https://github.com/HdTgon/2023-ESWA-SCMvFS"
       },
       "badge": "ESWA",
       "image": "images/publications/23ESWA_SCMvFS.png",
-      "image_alt": "Method overview: Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection"
+      "image_alt": "Method overview: Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection",
+      "doi": "10.1016/j.eswa.2023.121893"
     },
     {
       "title": "Consensus cluster structure guided multi-view unsupervised feature selection",
-      "authors": [],
+      "authors": [
+        "Zhiwen Cao",
+        "Xijiong Xie",
+        "Feixiang Sun",
+        "Jiabei Qian"
+      ],
       "venue": "Knowledge-Based Systems",
       "year": 2023,
       "links": {
+        "Paper": "https://www.sciencedirect.com/science/article/pii/S0950705123003283",
         "Code": "https://github.com/HdTgon/2023-KBS-CCSFS"
       },
       "badge": "KBS",
       "image": "images/publications/23KBS_CCSFS.png",
-      "image_alt": "Method overview: Consensus cluster structure guided multi-view unsupervised feature selection"
+      "image_alt": "Method overview: Consensus cluster structure guided multi-view unsupervised feature selection",
+      "doi": "10.1016/j.knosys.2023.110578"
     }
   ],
   "awards": [
