@@ -51,7 +51,9 @@ Settings → Pages → Source 保持 GitHub Actions。推送 main 自动运行�
 ```json
 "image": "images/publications/basecil.png",
 "image_alt": "Overview of the baseCIL method",
-"badge": "ICML’26"
+"badge": "ICML"
 ```
 
 桌面显示左图右文，窄屏自动上下排列。样式在 `assets/css/profile.css` 的 Publication thumbnails 段。
+
+论文配图按原始宽高比显示，不使用固定高度。顶部 Research 和 Honors and Awards 导航入口已隐藏，正文仍保留。页尾署名不在页面显示，模板版权和 MIT 许可证继续保留在 LICENSE 及本说明中。Contact 邮箱为纯文本。

@@ -19,7 +19,7 @@ author_profile: true
 {% for paper in papers %}
 <article class="publication-entry">
 <div class="paper-visual">
-<img class="paper-thumbnail" src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | default: paper.title | escape }}" loading="lazy" width="480" height="300">
+<img class="paper-thumbnail" src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | default: paper.title | escape }}" loading="lazy">
 <span class="paper-venue-badge">{{ paper.badge | default: paper.venue | escape }}</span>
 </div>
 <div class="paper-details">
@@ -32,6 +32,5 @@ author_profile: true
 {% if p.awards.size > 0 %}<ul>{% for entry in p.awards %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Honors and awards will be added soon.</p>{% endif %}</section>
 
 <section id="contact"><h1>Contact</h1>
-<ul class="contact-details"><li>Email: <a href="mailto:{{ p.contact.email | escape }}">{{ p.contact.email | escape }}</a></li></ul>
+<ul class="contact-details"><li>Email: <span>{{ p.contact.email | escape }}</span></li></ul>
 </section>
-<footer class="template-credit">© {{ site.time | date: '%Y' }} {{ p.name | escape }} · Powered by <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> &amp; Jekyll.</footer>
