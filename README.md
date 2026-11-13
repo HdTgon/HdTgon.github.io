@@ -60,11 +60,11 @@ Settings → Pages → Source 保持 GitHub Actions。推送 main 自动运行�
 
 ## 论文作者与官方链接
 
-`authors` 数组按官方作者顺序填写纯文本姓名，显示时以逗号分隔，与 profile.name 相同的姓名自动加粗，无需写 Markdown 星号。`links.Paper` 使用 ICML 官方会议页、IEEE Xplore 或 Elsevier ScienceDirect 的论文页，Code 保持指向代码仓库。
+`authors` 数组按官方作者顺序填写纯文本姓名，显示时以逗号分隔，与 profile.name 相同的姓名自动加粗，无需写 Markdown 星号。`links.Paper` 使用 ICML 的 PMLR 官方论文集页面、IEEE Xplore 或 Elsevier ScienceDirect 的论文页，Code 保持指向代码仓库。
 
 核对来源：
 
-- ICML: https://icml.cc/virtual/2026/poster/63084 ，作者顺序亦与官方论文集 https://proceedings.mlr.press/v306/cao26h.html 核对。
+- ICML: https://proceedings.mlr.press/v306/cao26h.html ，使用 PMLR 官方论文集页面。
 - TNNLS: https://ieeexplore.ieee.org/document/10737889/ ，DOI 10.1109/TNNLS.2024.3482440；作者与出版社提交至 Crossref 的元数据核对。
 - INS: https://www.sciencedirect.com/science/article/pii/S0020025524000914
 - KBS CFSMO: https://www.sciencedirect.com/science/article/pii/S095070512300922X
