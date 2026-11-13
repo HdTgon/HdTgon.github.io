@@ -9,7 +9,7 @@ author_profile: true
 {{ paragraph | markdownify }}
 {% endfor %}</section>
 <section id="research"><h1>🔬 Research Interests</h1>
-<ul>{% for interest in p.interests %}<li>{{ interest | escape }}</li>{% endfor %}</ul>
+{% for interest in p.interests %}<p>{{ interest | escape }}</p>{% endfor %}
 <p class="profile-note">{{ p.interests_note | escape }}</p></section>
 <section id="news"><h1>🔥 News</h1>
 {% if p.news.size > 0 %}<ul>{% for entry in p.news %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Updates will appear here.</p>{% endif %}</section>
