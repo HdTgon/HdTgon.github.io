@@ -12,12 +12,11 @@
     "Google Scholar": "https://scholar.google.hk/citations?user=odfczIMAAAAJ&hl=zh-CN&oi=sra"
   },
   "about": [
-    "Welcome! I’m HdTgon. This page brings together my research, publications, and academic activities.",
-    "My public GitHub repositories include implementations of multi-view unsupervised feature selection and class-incremental learning. A personal biography and current affiliation will be added here."
+    "Welcome! I’m Zhiwen Cao (曹智文). I am currently a Ph.D. candidate in the School of Computer Science at Sichuan University advised by Prof. Shudong Huang (黄树东). 
+    I obtained my M.S. degree in School of Computer Science and Engineering from Ningbo University, where I was very fortunate to be advised by Prof. Zenglin Xu (谢锡炯)."
   ],
   "interests": [
-    "Continual Learning",
-    "Multi-Modal Learning"
+    "My research interests include machine learning and its applications in computer vision, with a current focus on continual learning and multimodal large language models."
   ],
   "news": [],
   "publications": [
