@@ -19,7 +19,7 @@ author_profile: true
 {% for paper in papers %}
 <article class="publication-entry">
 <div class="paper-visual">
-<a class="paper-image-link" href="{{ paper.image | relative_url }}" target="_blank" rel="noopener" aria-label="View full figure: {{ paper.title | escape }}"><img class="paper-thumbnail" src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | default: paper.title | escape }}" loading="lazy"></a>
+<img class="paper-thumbnail" src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | default: paper.title | escape }}" loading="lazy">
 <span class="paper-venue-badge">{{ paper.badge | default: paper.venue | escape }}</span>
 </div>
 <div class="paper-details">
