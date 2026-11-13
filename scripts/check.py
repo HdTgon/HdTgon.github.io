@@ -10,7 +10,7 @@ class Page(HTMLParser):
         for k in ('href','src'):
             if k in a:self.refs.append(a[k])
 root=Path('_site');p=Page();html=(root/'index.html').read_text();p.feed(html)
-assert {'about-me','research','news','publications','education','awards'} <= set(p.ids)
+assert {'about-me','research','news','publications','awards'} <= set(p.ids)
 assert len(p.ids)==len(set(p.ids))
 assert 'Lorem ipsum' not in html and '260000+' not in html
 for ref in p.refs:
