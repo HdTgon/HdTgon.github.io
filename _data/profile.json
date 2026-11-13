@@ -12,8 +12,7 @@
     "Google Scholar": "https://scholar.google.hk/citations?user=odfczIMAAAAJ&hl=zh-CN&oi=sra"
   },
   "about": [
-    "Welcome! I’m Zhiwen Cao (曹智文). I am currently a Ph.D. candidate in the School of Computer Science at Sichuan University, advised by [Prof. Shudong Huang (黄树东)](https://huangsd.github.io/).",
-    "I obtained my M.S. degree in the School of Computer Science and Engineering at Ningbo University, where I was very fortunate to be advised by [Prof. Xijiong Xie (谢锡炯)](https://machinelearningnbu.github.io/)."
+    "Welcome! I’m Zhiwen Cao (曹智文). I am currently a Ph.D. candidate in the School of Computer Science at Sichuan University, advised by [Prof. Shudong Huang (黄树东)](https://huangsd.github.io/). I obtained my M.S. degree in the School of Computer Science and Engineering at Ningbo University, where I was very fortunate to be advised by [Prof. Xijiong Xie (谢锡炯)](https://machinelearningnbu.github.io/)."
   ],
   "interests": [
     "My research interests include machine learning and its applications in computer vision, with a current focus on continual learning and multimodal large language models."
