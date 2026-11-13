@@ -2,3 +2,7 @@ html{scroll-behavior:smooth;scroll-padding-top:80px}.profile-note{color:#687582;
 /* Keep profile links in normal document flow on small screens. */
 .profile-links{position:static;right:auto;z-index:auto;margin:0;padding:0;border:0;background:transparent;box-shadow:none}.profile-links:before,.profile-links:after{display:none}.profile_box .author__urls-wrapper{cursor:default}
 @media(max-width:1023px){.profile_box{display:grid;grid-template-columns:75px minmax(0,1fr);gap:12px;align-items:start}.profile_box .author__content{padding-left:0}.profile_box .author__urls-wrapper{grid-column:1/-1;display:block;width:100%;margin:0}.profile-links{display:flex!important;flex-wrap:wrap;gap:8px 16px}.profile-links li{margin:0}.author__content .profile-note{margin-bottom:0}}
+
+.profile-links a{display:inline-flex;align-items:center;gap:8px}.profile-links a i{flex:none;font-size:1.1em}.profile-links li+li{margin-top:7px}
+@media(min-width:1024px){.sidebar .profile_box{transform:translateX(16px)}}
+@media(max-width:1023px){.profile-links li+li{margin-top:0}}
