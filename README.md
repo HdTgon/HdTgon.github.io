@@ -6,11 +6,11 @@
 
 ## 更新资料
 
-所有个人资料集中在 `_data/profile.json`：姓名、照片、介绍、研究方向、新闻、论文、教育、学术服务及社交链接。布局在 `_pages/about.html`，侧栏在 `_includes/author-profile.html`。导航在 `_data/navigation.yml`。主题样式保留上游 `_sass/` 与 `assets/css/main.scss`，个人调整在 `assets/css/profile.css`。
+所有个人资料集中在 `_data/profile.json`：姓名、照片、介绍、研究方向、新闻、论文、教育、荣誉奖项及社交链接。布局在 `_pages/about.html`，侧栏在 `_includes/author-profile.html`。导航在 `_data/navigation.yml`。主题样式保留上游 `_sass/` 与 `assets/css/main.scss`，个人调整在 `assets/css/profile.css`。
 
 `links` 支持 GitHub、Google Scholar、Email（mailto: 地址）、CV（例如 `/files/cv.pdf`）。null 表示待补充，不生成虚假链接。照片替换 `images/avatar.jpg`。CV 文件放 `files/cv.pdf` 后填写对应链接。
 
-论文条目字段：title（标题）、authors（作者数组）、venue（期刊/会议）、year（整数）、links（Paper/Code 等链接对象）。可选 image 字段填写真实论文图片路径。新闻、教育、服务条目格式为 `{"date":"2026.09","text":"Your update"}`。
+论文条目字段：title（标题）、authors（作者数组）、venue（期刊/会议）、year（整数）、links（Paper/Code 等链接对象）。可选 image 字段填写真实论文图片路径。新闻、教育、奖项条目格式为 `{"date":"2026.09","text":"Your update"}`。
 
 现有论文依据公开 GitHub 仓库描述迁入，归属、作者、正式出版信息待本人确认；研究方向亦从仓库主题推断。未填个人信息继续标注待补充，没有使用模板自带的示例履历或引用数。
 

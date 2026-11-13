@@ -22,8 +22,9 @@ author_profile: true
 <p><em>{{ paper.venue | escape }}</em>, <strong>{{ paper.year }}</strong></p>
 <div class="paper-links">{% for item in paper.links %}{% if item[1] %}<a href="{{ item[1] | escape }}">{{ item[0] | escape }}</a>{% endif %}{% endfor %}</div>
 </article>{% endfor %}</section>
+<section id="awards"><h1>🎖 Honors and Awards</h1>
+{% if p.awards.size > 0 %}<ul>{% for entry in p.awards %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Honors and awards will be added soon.</p>{% endif %}</section>
 <section id="education"><h1>📖 Education</h1>
 {% if p.education.size > 0 %}<ul>{% for entry in p.education %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Education details will be added soon.</p>{% endif %}</section>
-<section id="services"><h1>🤝 Academic Services</h1>
-{% if p.services.size > 0 %}<ul>{% for entry in p.services %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Academic service details will be added soon.</p>{% endif %}</section>
+
 <footer class="template-credit">© {{ site.time | date: '%Y' }} {{ p.name | escape }} · Powered by <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> &amp; Jekyll.</footer>
