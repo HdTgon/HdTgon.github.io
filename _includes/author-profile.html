@@ -1,0 +1,7 @@
+{% assign p = site.data.profile %}
+<div itemscope itemtype="https://schema.org/Person" class="profile_box">
+<div class="author__avatar"><img src="{{ p.photo | relative_url }}" class="author__avatar" alt="{{ p.photo_alt | escape }}" width="200" height="200"></div>
+<div class="author__content"><h3 class="author__name">{{ p.name | escape }}</h3><p class="author__bio">{{ p.name_note | escape }}</p><p class="profile-note">{{ p.role | escape }}<br>{{ p.affiliation | escape }}</p></div>
+<div class="author__urls-wrapper"><ul class="author__urls social-icons profile-links">
+{% for item in p.links %}<li>{% if item[1] %}<a href="{{ item[1] | escape }}">{{ item[0] | escape }}</a>{% else %}<span class="profile-note">{{ item[0] | escape }} · To add</span>{% endif %}</li>{% endfor %}
+</ul></div></div>

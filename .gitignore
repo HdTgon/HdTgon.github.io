@@ -1,3 +1,7 @@
-dist/
+_site/
+.sass-cache/
+.jekyll-cache/
+vendor/
+.bundle/
 __pycache__/
 .DS_Store

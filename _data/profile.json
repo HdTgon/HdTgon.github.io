@@ -5,7 +5,7 @@
   "affiliation": "Affiliation to be added",
   "description": "Academic homepage of HdTgon. Research, publications, education, and academic activities.",
   "site_url": "https://hdtgon.github.io",
-  "photo": "assets/avatar.jpg",
+  "photo": "images/avatar.jpg",
   "photo_alt": "HdTgon's GitHub avatar; replace with a personal academic portrait",
   "links": {
     "GitHub": "https://github.com/HdTgon",

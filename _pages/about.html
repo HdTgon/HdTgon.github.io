@@ -1,0 +1,29 @@
+---
+permalink: /
+title: ""
+author_profile: true
+---
+{% assign p = site.data.profile %}
+<section id="about-me"><h1>👋 About Me</h1>
+{% for paragraph in p.about %}<p>{{ paragraph | escape }}</p>{% endfor %}</section>
+<section id="research"><h1>🔬 Research Interests</h1>
+<ul>{% for interest in p.interests %}<li>{{ interest | escape }}</li>{% endfor %}</ul>
+<p class="profile-note">{{ p.interests_note | escape }}</p></section>
+<section id="news"><h1>🔥 News</h1>
+{% if p.news.size > 0 %}<ul>{% for entry in p.news %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Updates will appear here.</p>{% endif %}</section>
+<section id="publications"><h1>📝 Publications</h1>
+<p class="profile-note">{{ p.publications_note | escape }}</p>
+{% assign papers = p.publications | sort: 'year' | reverse %}
+{% for paper in papers %}
+<article class="publication-entry">
+{% if paper.image %}<img class="paper-thumbnail" src="{{ paper.image | relative_url }}" alt="{{ paper.title | escape }}" loading="lazy">{% endif %}
+<h2>{{ paper.title | escape }}</h2>
+<p class="paper-authors">{% if paper.authors.size > 0 %}{{ paper.authors | join: ', ' | escape }}{% else %}Authors to be confirmed{% endif %}</p>
+<p><em>{{ paper.venue | escape }}</em>, <strong>{{ paper.year }}</strong></p>
+<div class="paper-links">{% for item in paper.links %}{% if item[1] %}<a href="{{ item[1] | escape }}">{{ item[0] | escape }}</a>{% endif %}{% endfor %}</div>
+</article>{% endfor %}</section>
+<section id="education"><h1>📖 Education</h1>
+{% if p.education.size > 0 %}<ul>{% for entry in p.education %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Education details will be added soon.</p>{% endif %}</section>
+<section id="services"><h1>🤝 Academic Services</h1>
+{% if p.services.size > 0 %}<ul>{% for entry in p.services %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Academic service details will be added soon.</p>{% endif %}</section>
+<footer class="template-credit">© {{ site.time | date: '%Y' }} {{ p.name | escape }} · Powered by <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a> &amp; Jekyll.</footer>
