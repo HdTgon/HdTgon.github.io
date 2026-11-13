@@ -27,57 +27,33 @@
       "links": {
         "Code": "https://github.com/HdTgon/baseCIL"
       },
-      "badge": "ICML",
-      "image": "images/publications/paper-1.svg",
-      "image_alt": "Placeholder: paper figure to be added"
+      "badge": "ICML’26",
+      "image": "images/publications/26ICML_on_the.png",
+      "image_alt": "Method overview: On the Power of Statistics in Class-Incremental Learning with Pretrained Models"
     },
     {
       "title": "Partition Level Tensor Learning based Multi-View Unsupervised Feature Selection",
       "authors": [],
       "venue": "IEEE Transactions on Neural Networks and Learning Systems",
-      "year": 2023,
+      "year": 2025,
       "links": {
         "Code": "https://github.com/HdTgon/2023-TNNLS-PTFS"
       },
-      "badge": "TNNLS",
-      "image": "images/publications/paper-2.svg",
-      "image_alt": "Placeholder: paper figure to be added"
-    },
-    {
-      "title": "Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection",
-      "authors": [],
-      "venue": "Expert Systems with Applications",
-      "year": 2023,
-      "links": {
-        "Code": "https://github.com/HdTgon/2023-ESWA-SCMvFS"
-      },
-      "badge": "ESWA",
-      "image": "images/publications/paper-3.svg",
-      "image_alt": "Placeholder: paper figure to be added"
-    },
-    {
-      "title": "Consensus cluster structure guided multi-view unsupervised feature selection",
-      "authors": [],
-      "venue": "Knowledge-Based Systems",
-      "year": 2023,
-      "links": {
-        "Code": "https://github.com/HdTgon/2023-KBS-CCSFS"
-      },
-      "badge": "KBS",
-      "image": "images/publications/paper-4.svg",
-      "image_alt": "Placeholder: paper figure to be added"
+      "badge": "TNNLS’25",
+      "image": "images/publications/25TNNLS_partition_level.png",
+      "image_alt": "Method overview: Partition Level Tensor Learning based Multi-View Unsupervised Feature Selection"
     },
     {
       "title": "Multi-View Unsupervised Feature Selection with Consensus Partition and Diverse Graph",
       "authors": [],
       "venue": "Information Sciences",
-      "year": 2023,
+      "year": 2024,
       "links": {
         "Code": "https://github.com/HdTgon/2023-INS-CDMvFS"
       },
-      "badge": "INS",
-      "image": "images/publications/paper-5.svg",
-      "image_alt": "Placeholder: paper figure to be added"
+      "badge": "INS’24",
+      "image": "images/publications/24INS_CDMvFS.png",
+      "image_alt": "Method overview: Multi-View Unsupervised Feature Selection with Consensus Partition and Diverse Graph"
     },
     {
       "title": "Multi-view unsupervised complementary feature selection with multi-order similarity learning",
@@ -87,9 +63,33 @@
       "links": {
         "Code": "https://github.com/HdTgon/2023-KBS-CFSMO"
       },
-      "badge": "KBS",
-      "image": "images/publications/paper-6.svg",
-      "image_alt": "Placeholder: paper figure to be added"
+      "badge": "KBS’23",
+      "image": "images/publications/23KBS_CFSMO.png",
+      "image_alt": "Method overview: Multi-view unsupervised complementary feature selection with multi-order similarity learning"
+    },
+    {
+      "title": "Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection",
+      "authors": [],
+      "venue": "Expert Systems with Applications",
+      "year": 2023,
+      "links": {
+        "Code": "https://github.com/HdTgon/2023-ESWA-SCMvFS"
+      },
+      "badge": "ESWA’23",
+      "image": "images/publications/23ESWA_SCMvFS.png",
+      "image_alt": "Method overview: Structure Learning with Consensus Label Information for Multi-View Unsupervised Feature Selection"
+    },
+    {
+      "title": "Consensus cluster structure guided multi-view unsupervised feature selection",
+      "authors": [],
+      "venue": "Knowledge-Based Systems",
+      "year": 2023,
+      "links": {
+        "Code": "https://github.com/HdTgon/2023-KBS-CCSFS"
+      },
+      "badge": "KBS’23",
+      "image": "images/publications/23KBS_CCSFS.png",
+      "image_alt": "Method overview: Consensus cluster structure guided multi-view unsupervised feature selection"
     }
   ],
   "awards": [

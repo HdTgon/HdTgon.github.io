@@ -15,7 +15,7 @@ author_profile: true
 {% if p.news.size > 0 %}<ul>{% for entry in p.news %}<li><em>{{ entry.date | escape }}</em>: {{ entry.text | escape }}</li>{% endfor %}</ul>{% else %}<p class="profile-note">Updates will appear here.</p>{% endif %}</section>
 <section id="publications"><h1>📝 Publications</h1>
 <p class="profile-note">{{ p.publications_note | escape }}</p>
-{% assign papers = p.publications | sort: 'year' | reverse %}
+{% assign papers = p.publications %}
 {% for paper in papers %}
 <article class="publication-entry">
 <div class="paper-visual">
